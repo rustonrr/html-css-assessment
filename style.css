@@ -1,0 +1,116 @@
+/** {
+   border: 1px solid red !important;
+}*/
+
+html { 
+  background: url("http://i.imgur.com/bAbcNy6.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+li {
+	list-style-type: none;
+}
+
+.main-header {
+   /* position: fixed;*/
+    width:100%;
+    height:55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburger {
+	fill: #fff;
+    width:45px;
+    height:45px;
+    margin-left: 18px;
+    margin-top: 14px;
+}
+
+.social-icons {
+	margin-right:40px;
+	margin-top: 22px;
+}
+.facebook-icon {
+	padding-right: 25px;
+}
+
+.main-nav {
+    display: none;
+    width:100%;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.main-nav ul {
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.top-section {
+	text-align: center;
+	margin-top: 190px;
+}
+
+.your {
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    height: 80px;
+}
+.personal-portfolio {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*#footer-container{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}*/
+
+.bottom-icon {
+	width: 98%;
+	text-align: center;
+	position:absolute;
+	bottom: 18px;
+}
+
+
+
+
+
+@media(min-width: 550px) {
+    html {
+        font-size: 18px;
+    }
+    .hamburger {
+        display: none;
+    }
+
+    .main-nav {
+        display: flex;
+    }
+    .social-icons {
+	display:none;
+}
+
+
+
+
+
+
+
